@@ -18,6 +18,8 @@
 		51F14A8B25927C890042789D /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F14A8A25927C890042789D /* WorldView.swift */; };
 		51F14A8E2592844B0042789D /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F14A8D2592844B0042789D /* Tip.swift */; };
 		51F14A912592853F0042789D /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F14A902592853F0042789D /* TipsView.swift */; };
+		C7116E4E28916B4D00570027 /* WorldViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7116E4D28916B4D00570027 /* WorldViewList.swift */; };
+		C7116E5028916D7700570027 /* WorldViewMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7116E4F28916D7700570027 /* WorldViewMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		51F14A8A25927C890042789D /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 		51F14A8D2592844B0042789D /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		51F14A902592853F0042789D /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		C7116E4D28916B4D00570027 /* WorldViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewList.swift; sourceTree = "<group>"; };
+		C7116E4F28916D7700570027 /* WorldViewMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 			children = (
 				51F14A6F259261BA0042789D /* TrekrApp.swift */,
 				51F14A8A25927C890042789D /* WorldView.swift */,
+				C7116E4F28916D7700570027 /* WorldViewMap.swift */,
+				C7116E4D28916B4D00570027 /* WorldViewList.swift */,
 				51F14A71259261BA0042789D /* ContentView.swift */,
 				51F14A872592749A0042789D /* Locations.swift */,
 				51F14A73259261BB0042789D /* Assets.xcassets */,
@@ -162,10 +168,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				51F14A72259261BA0042789D /* ContentView.swift in Sources */,
+				C7116E5028916D7700570027 /* WorldViewMap.swift in Sources */,
 				51F14A85259270470042789D /* Location.swift in Sources */,
 				51F14A8B25927C890042789D /* WorldView.swift in Sources */,
 				51F14A8E2592844B0042789D /* Tip.swift in Sources */,
 				51F14A912592853F0042789D /* TipsView.swift in Sources */,
+				C7116E4E28916B4D00570027 /* WorldViewList.swift in Sources */,
 				51F14A882592749A0042789D /* Locations.swift in Sources */,
 				51F14A70259261BA0042789D /* TrekrApp.swift in Sources */,
 			);

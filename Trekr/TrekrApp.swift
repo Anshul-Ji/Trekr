@@ -14,19 +14,19 @@ struct TrekrApp: App {
     var body: some Scene {
         WindowGroup {
             TabView {
-                NavigationView {
-                    ContentView(location: locations.primary)
-                }
-                .tabItem {
-                    Image(systemName: "airplane.circle.fill")
-                    Text("Discover")
-                }
+//                NavigationView {
+//                    ContentView(location: locations.primary)
+//                }
+//                .tabItem {
+//                    Image(systemName: "airplane.circle.fill")
+//                    Text("Discover")
+//                }
 
                 NavigationView {
                     WorldView()
                 }
                 .tabItem {
-                    Image(systemName: "star.fill")
+                    Image(systemName: "location.circle.fill")
                     Text("Locations")
                 }
 
@@ -34,7 +34,7 @@ struct TrekrApp: App {
                     TipsView()
                 }
                 .tabItem {
-                    Image(systemName: "list.bullet")
+                    Image(systemName: "bubble.left.and.bubble.right")
                     Text("Tips")
                 }
             }

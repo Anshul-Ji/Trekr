@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Location: Decodable, Identifiable {
+struct Location: Decodable, Identifiable, Comparable {
     let id: Int
     let name: String
     let country: String
@@ -19,4 +19,7 @@ struct Location: Decodable, Identifiable {
     let advisory: String
 
     static let example = Location(id: 1, name: "Great Smokey Mountains", country: "United States", description: "A great place to visit.", more: "More text here.", latitude: 35.6532, longitude: -83.5070, heroPicture: "smokies", advisory: "Beware of the bears!")
+    static func < (lhs: Location, rhs: Location) -> Bool {
+        lhs.country < rhs.country 
+    }
 }
